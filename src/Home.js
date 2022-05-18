@@ -9,7 +9,7 @@ import ProductData from './components/ProductData'
 const Home = ({product}) => {
 
   const open=()=>{
-    let url = 'https://github.com/jpaltahona';
+    let url = 'https://github.com/jpaltahona/oruxTest';
     Linking.openURL(url) 
   }
   

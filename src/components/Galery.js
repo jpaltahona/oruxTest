@@ -4,7 +4,7 @@ import { StyleSheet, ImageBackground, View, FlatList, Image} from 'react-native'
 const Galery = ({data}) => {
 
     const renderItem = ({ item }) => {
-        console.log(item)
+
         return  <Image 
             source={{uri: item}} 
             resizeMode="stretch"
